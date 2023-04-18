@@ -4,7 +4,9 @@
 	O algoritmo tem como objetivo caminhar de forma randômica por N matrizes NxN ou seja, quadráticas, na qual se encontra diversos obstaculos, como se fosse um labirinto. As matrizes sao constituidas por numeros inteiros de 0 a 9, por paredes representadas pelo caracter # e por perigos representados pelo caracter *. O caminhho realizado é de forma randômica, a cada iteração a posição será alterada para alguma posição válida aleatória, ou seja uma posição ao redor da posiçaõ atual. Durante a trajetória, as posciçoes que contém numeros devem ser subtraidas em 1 a cada passagem, além disso ao passar por um perrigo a vida é consumida.
 </p>
 
+<p align="justify">
 	Em relação as paredes, não a muito o que fazer a não ser desviar e continuar a rota. Já os perigos como foi dito, sempre consomem a vida ao se passar por eles, nesse caso é subtraido 1 de um total de 10 vidas. Assim ao ficar sem pontos de vida o algoritmo deve parar e indicar o fim do jogo.
+</p>
 
 	Ao decorrer da trajetória, a cada passo sob uma posição que contém um numero, é coletado um item e é subtraido 1 da posição atual como ja foi dito. Ao coletar 4 itens a vida aumenta em 1 se não estiver cheia, ou seja, se for diferente de 0. Contudo pode haver posiçãoes da matriz cujo o valor é 0, nesse caso não é coletado item e tambem não é decrementado 1 da posição.
 
