@@ -6,6 +6,7 @@
 #include <string.h>
 #include <math.h>
 #include <sys/stat.h>
+#include <stdbool.h>
 
 #define MAX_ROWS 100
 #define MAX_COLS 100
