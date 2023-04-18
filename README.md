@@ -1,1 +1,1 @@
-# labirinto
+# Labirinto recursivo
