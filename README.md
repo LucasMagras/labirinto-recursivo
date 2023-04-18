@@ -13,12 +13,10 @@
 </p>
 
 <p align="justify">
-
 	O labirinto é lido de um arquivo input.data, o qual apresentará N matrizes NxN. O objetivo do trabalho é percorrer as matrizes até que todo caminho percorrido se torne 0 ou quando a vida chegar a 0. No final é mostrado quantas casas não foram visitas, a soma de itens consumidos pelo caminho, quanto foram pegos no total, a quantidade de vida se ela for diferente de 0 e quantos perigos foram enfrentados ao longo do trajéto.
 </p>
 
 <p align="justify">
-	
 	Ao iniciar o algoritmo, a primeira coisa a ser feita é a leitura do arquivo input.data. O algoritmo lê todas as matrizes que estão no arquivo e cria um arquivo de saída separado para cada matriz, dessa forma quando for preciso mudar de matriz o codigo lê o arquvio correspondente e carrega a matriz de novo. Para entender como é feito a mudança de matriz é preciso entender como é realizado o caminho. Como ja foi dito, o caminho é feito de forma randômica, neste caso quando se inicia o algoritmo é gerado uma coordenada que contem um valor de linha e um valor de coluna aleatorios da matriz, feito isso durante a trajetoria dependendo da posição atual são gerado numeros entre -1 e 1 para uma variavel linha e uma variavel coluna. Esses valores gerados são incrementados a posição atual e realizando o caminho, por exemplo posição atual for linha = 2 e coluna = 1, e for gerado 0 e 1 nas variaveis linha e coluna, a posição nova será linha = 2 e coluna = 2, ou seja ele caminhou para direita. 
 </p>
 
