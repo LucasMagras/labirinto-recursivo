@@ -2,6 +2,7 @@
 
 <p align="justify">
 	O algoritmo tem como objetivo caminhar de forma randômica por N matrizes NxN ou seja, quadráticas, na qual se encontra diversos obstaculos, como se fosse um labirinto. As matrizes sao constituidas por numeros inteiros de 0 a 9, por paredes representadas pelo caracter # e por perigos representados pelo caracter *. O caminhho realizado é de forma randômica, a cada iteração a posição será alterada para alguma posição válida aleatória, ou seja uma posição ao redor da posiçaõ atual. Durante a trajetória, as posciçoes que contém numeros devem ser subtraidas em 1 a cada passagem, além disso ao passar por um perrigo a vida é consumida.
+</p>
 
 	Em relação as paredes, não a muito o que fazer a não ser desviar e continuar a rota. Já os perigos como foi dito, sempre consomem a vida ao se passar por eles, nesse caso é subtraido 1 de um total de 10 vidas. Assim ao ficar sem pontos de vida o algoritmo deve parar e indicar o fim do jogo.
 
@@ -11,7 +12,6 @@
 	
 	Ao iniciar o algoritmo, a primeira coisa a ser feita é a leitura do arquivo input.data. O algoritmo lê todas as matrizes que estão no arquivo e cria um arquivo de saída separado para cada matriz, dessa forma quando for preciso mudar de matriz o codigo lê o arquvio correspondente e carrega a matriz de novo. Para entender como é feito a mudança de matriz é preciso entender como é realizado o caminho. Como ja foi dito, o caminho é feito de forma randômica, neste caso quando se inicia o algoritmo é gerado uma coordenada que contem um valor de linha e um valor de coluna aleatorios da matriz, feito isso durante a trajetoria dependendo da posição atual são gerado numeros entre -1 e 1 para uma variavel linha e uma variavel coluna. Esses valores gerados são incrementados a posição atual e realizando o caminho, por exemplo posição atual for linha = 2 e coluna = 1, e for gerado 0 e 1 nas variaveis linha e coluna, a posição nova será linha = 2 e coluna = 2, ou seja ele caminhou para direita. 
 
-</p>
 
 # Compilação e Execução
 
