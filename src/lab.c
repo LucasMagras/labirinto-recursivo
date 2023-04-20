@@ -556,7 +556,7 @@ void CasasNaoVisitadas(char **mat_path, int quantidade_matriz, int tam, int cont
 		fclose(fp);
 		for(int j=0; j<tam; j++){
 			for(int k=0; k<tam; k++){
-				if(mat_path[j][k]){
+				if(mat_path[j][k]=='0'){
 					contCasasNaoVisitadas++;
 				}
 			}
