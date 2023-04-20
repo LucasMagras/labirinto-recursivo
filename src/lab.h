@@ -18,5 +18,6 @@ void SetMat0();
 void SetMat();
 void Checkpoint();
 void CasasNaoVisitadas();
+void Resultado();
 
 #endif
