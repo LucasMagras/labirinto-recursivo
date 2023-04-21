@@ -29,8 +29,10 @@
 </p>
 
 <p align="center">
-<img src="img/mat1.jpeg/>
+<img src="img/mat1.jpeg"/>
 </p>
+	  
+
 
 
 # Compilação e Execução
