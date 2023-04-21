@@ -29,13 +29,21 @@
 </p>
 
 <p align="center">
+<img src="img/matriz.jpeg">
+</p>
+
+<p align="center">
 	Figura 1	
+</p>
+
+<p align="center">
+<img src="img/trocadematriz.jpeg">
 </p>
 
 <p align="center">
 	Figura 2	
 </p>
-</p>
+
 
 
 
