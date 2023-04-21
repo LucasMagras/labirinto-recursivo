@@ -5,7 +5,7 @@
 </p>
 
 <p align="justify">
-	Em relação as paredes, não a muito o que fazer a não ser desviar e continuar a rota. Já os perigos como foi dito, sempre consomem a vida ao se passar por eles, nesse caso é subtraido 1 de um total de 9 vidas. Assim, ao ficar sem pontos de vida o algoritmo deve parar e indicar o fim do jogo.
+	Em relação as paredes, não a muito o que fazer a não ser desviar e continuar a rota. Já os perigos como foi dito, sempre consomem a vida ao se passar por eles, nesse caso é subtraido 1 de um total de 9 vidas. Assim, ao ficar sem pontos de vida o algoritmo deve parar e indicar o fim do jogo. Outra forma de acabar com o jogo é vencendo ele, para isso é necessário percorrer um caminho sem coletar nenhum item, ou seja andar apenas em posições zeradas e voltar para a posição inicial.
 </p>
 
 <p align="justify">
@@ -48,12 +48,20 @@
 	A Figura 1 representa o trajeto feito dentro de uma matriz 3x3. A posição esverdiada é a posição atual e as setas vermelhas representam as posições validas para caminhar. Neste exemplo o caminho feito foi para a posição central como mostra na figura, decrementando a posição anterior que era 7 e passou a ser 6. Já a Figura 2 representa a troca de matrizes, percebe-se que o caminho feito foi para a direita, da posição de numero 1 que antes era 2, para a posição de numero 5. Agpra existe posições da matriz 2 validas para caminhar, e dessa forma ocorre a troca de matriz.
 </p>
 
+<p align="center">
+	figuras 3 e 4 mostrando o terminal 
+</p>
+
+<p align="justify">
+	explicar o que ocorre nas figuras
+</p>
+
 <p align="justify">
 	Ao final do programa é printado no terminal se houve vitoria ou derrota, mostrando a quantidade de itens pegos no total e quantidade no inventario, a quantidade de perigos enfrentados, a quantidade de casas visitadas armazenada na variavel "passos" que incrementa a cada movimento realizado no trajeto, a quantidade de casas não visitadas. Para realizar o cálculo da quantidade de casas não visitadas foi preciso criar outra matriz espelhada a matriz principal, porém no lugar dos numeros e dos perigos foi colocado 0 e 1, mantendo as paredes. Além disso tambem é feito arquivos separados para cada matriz espelhada assim como as matrizes principais. A cada pssso realizado, é colocado 1 na posição correspondente na matriz espelhada, o objetivo disso é saber em quais posições foram passadas, ou seja, onde estiver 0 na matriz espelhada significa que essa posição não foi visitada. A função CasasNaoVisitadas() recebe todos os arquivos contendo as matrizes espelhadas e conta quantas posições contem 0 armazenando na variavel contCasasNaoVisitadas. Alem disso o programa junta todos os arquivos contendo o resultado das matrizes em um arquivo de saida output.txt e o coloca na pasta dataset junto com o input.data e apaga todos os outros arquivos gerados, tudo isso é feito na função Resultado().
 </p>
 
 <p align="justify">
-conclusão	
+	Por se tratar de codigo totalmente randômico, é dificil dizer ao certo qual o custo computacional do algoritmo. A cada execução seu custo muda, podemos considerar um custo quadratico se ao final da execução for visitada todas as posições válidas e um custo linear se o trájeto for em linha reta até o fim do jogo em caso de vitoria voltando à primeira posição. Contudo pode-se dizer que o algoritmo foi bem implementado e otimizado para melhor perfomace devido as estratégias utilizadas para fazer cada função.
 </p>
 
 
