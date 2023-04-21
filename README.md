@@ -28,7 +28,9 @@
 	Para realizar a troca de matrizes, foram usadas 2 funções distintas. Primeiro é usada a função Checkpoint() que lê a matriz atual e reescreve ela com as modificações feitas durante o trajeto no arquivo correspondente à essa matriz, dessa forma quando precisar carregar essa matriz novamente não será perdida as mudanças feitas anteriormente. Depois é usada a função SetMat() que apenas lê o arquivo da proxima matriz e carrega ela no codigo. Por exemplo, se a matriz atual for a 1, quando for realizar a troca de matrizes a próxima será a matriz 2, nesse caso será chamada a função Checkpoint() para salvar as mudanças da matriz 1 no arquivo referetnte a ela e depois a função SetMat() que irá ler a matriz 2 do arquivo e carregar ela no codigo. 
 </p>
 
-
+<p align="center">
+<img src = "img/matriz1.0.png">
+</p>
 
 
 # Compilação e Execução
