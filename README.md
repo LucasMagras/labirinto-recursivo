@@ -29,11 +29,11 @@
 </p>
 
 <p align="center">
-<img src="img/mat1.jpeg"/>
+<img src="img/matriz.jpeg"/>
 </p>
 
 <p align="center">
-<img src="img/mat2.jpeg"/>
+<img src="img/trocadematriz.jpeg"/>
 </p>
 
 
