@@ -44,7 +44,13 @@
 	Figura 2	
 </p>
 
+<p align="justify">
+	A Figura 1 representa o trajeto feito dentro de uma matriz 3x3. A posição esverdiada é a posição atual e as setas vermelhas representam as posições validas para caminhar. Neste exemplo o caminho feito foi para a posição central como mostra na figura, decrementando a posição anterior que era 7 e passou a ser 6. Já a Figura 2 representa a troca de matrizes, percebe-se que o caminho feito foi para a direita, da posição de numero 1 que antes era 2, para a posição de numero 5. Agpra existe posições da matriz 2 validas para caminhar, e dessa forma ocorre a troca de matriz.
+</p>
 
+<p align="justify">
+	Ao final do programa é printado no terminal se houve vitoria ou derrota, mostrando a quantidade de itens pegos no total e quantidade no inventario, a quantidade de perigos enfrentados, a quantidade de casas visitadas armazenada na variavel "passos" que incrementa a cada movimento realizado no trajeto, a quantidade de casas não visitadas. Para realizar o cálculo da quantidade de casas não visitadas foi preciso criar outra matriz espelhada a matriz principal, porém no lugar dos numeros e dos perigos foi colocado 0 e 1, mantendo as paredes. Além disso tambem é feito arquivos separados para cada matriz espelhada assim como as matrizes principais. A cada pssso realizado, é colocado 1 na posição correspondente na matriz espelhada, o objetivo disso é saber em quais posições foram passadas, ou seja, onde estiver 0 na matriz espelhada significa que essa posição não foi visitada. A função CasasNaoVisitadas() recebe todos os arquivos contendo as matrizes espelhadas e conta quantas posições contem 0 armazenando na variavel contCasasNaoVisitadas. Alem disso o programa junta todos os arquivos 
+</p>
 
 
 # Compilação e Execução
