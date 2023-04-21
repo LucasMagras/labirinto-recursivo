@@ -29,7 +29,7 @@
 </p>
 
 <p align="center">
-<img src = "mat1.0.png">
+<img img = "mat1.0.png">
 </p>
 
 
