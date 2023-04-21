@@ -35,7 +35,6 @@
 <p align="center">
 	Figura 1	
 </p>
-</p>
 
 <p align="center">
 <img src="img/trocadematriz.jpeg"/>
