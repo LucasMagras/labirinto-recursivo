@@ -32,7 +32,7 @@
 <img src="img/matriz.jpeg">
 </p>
 
-<align="center">
+<p align="center">
 	Figura 1	
 </p>
 
