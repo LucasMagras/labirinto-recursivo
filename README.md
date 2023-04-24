@@ -49,7 +49,19 @@
 </p>
 
 <p align="center">
-	figuras 3 e 4 mostrando o terminal 
+<img src="img/vitoria.JPG">
+</p>
+
+<p align="center">
+	Figura 3	
+</p>
+
+<p align="center">
+<img src="img/derrota.JPG">
+</p>
+
+<p align="center">
+	Figura 4
 </p>
 
 <p align="justify">
