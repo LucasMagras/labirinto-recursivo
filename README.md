@@ -49,7 +49,7 @@
 </p>
 
 <p align="center">
-<img src="img/vitoria.JPG">
+<img src="img/Vitoria.JPG">
 </p>
 
 <p align="center">
