@@ -30,8 +30,8 @@
 
 <p align="center">
 <img src="img/matriz.jpeg">
-	figura1
 </p>
+figura1
 
 <p align="center">
 	Figura 1	
