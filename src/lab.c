@@ -215,19 +215,19 @@ void Caminho(char **mat, int tam, int quantidade_matriz, char **mat_path)
 				do{
 					if(posicao_linha==0 && posicao_coluna==tam-1){
 						path_linha=rand()% 2;
-						path_coluna=(rand()% 3) -1;
+						path_coluna=(rand()% 2) -1;
 					}
 
 					// se a posicao for a NxN matriz 
 					else if(posicao_linha==tam-1 && posicao_coluna==tam-1){
 						path_linha=(rand()% 2) -1;
-						path_coluna=(rand()% 3) -1;
+						path_coluna=(rand()% 2) -1;
 					}
 
 					// se for alguma posicao na ultima coluna fora as posicoes acima
 					else{
 						path_linha=(rand()% 3) -1;
-						path_coluna=(rand()% 3) -1;
+						path_coluna=(rand()% 2) -1;
 					}
 
 					//verificando se precisa trocar de matriz, se ele estiver na ultima coluna e gerar um path coluna +1
